@@ -34,3 +34,17 @@ This project simulates LTE handover mechanisms using the ns-3 network simulator.
    git checkout ns-3.41
    ./ns3 configure --enable-examples --enable-tests
    ./ns3 build
+
+2. **Add the simulation code**:
+
+Move the provided simulation file into the `scratch/` directory of the ns-3 folder:
+
+```bash
+cp /path/to/FYP2_SimulationCode.cpp scratch/
+
+3. **Build the simulation**:
+
+From the root directory of your `ns-3.41` folder, run:
+
+```bash
+./ns3 build
